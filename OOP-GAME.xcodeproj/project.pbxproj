@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BD39131D112F3F00F9CA85 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40BD39121D112F3F00F9CA85 /* Minecraft.ttf */; };
 		40FA72C31D10D5EB005B6E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA72C21D10D5EB005B6E78 /* AppDelegate.swift */; };
 		40FA72C51D10D5EB005B6E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA72C41D10D5EB005B6E78 /* ViewController.swift */; };
 		40FA72C81D10D5EB005B6E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FA72C61D10D5EB005B6E78 /* Main.storyboard */; };
 		40FA72CA1D10D5EB005B6E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FA72C91D10D5EB005B6E78 /* Assets.xcassets */; };
 		40FA72CD1D10D5EB005B6E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FA72CB1D10D5EB005B6E78 /* LaunchScreen.storyboard */; };
+		40FA72D51D10D605005B6E78 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FA72D41D10D605005B6E78 /* Character.swift */; };
+		40FC7E621D10DBF00080700C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC7E611D10DBF00080700C /* Player.swift */; };
+		40FC7E641D10DF0F0080700C /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC7E631D10DF0F0080700C /* Enemy.swift */; };
+		40FC7E661D10E1940080700C /* Karma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC7E651D10E1940080700C /* Karma.swift */; };
+		40FC7E681D10E3040080700C /* Devil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC7E671D10E3040080700C /* Devil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40BD39121D112F3F00F9CA85 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		40FA72BF1D10D5EB005B6E78 /* OOP-GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OOP-GAME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FA72C21D10D5EB005B6E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40FA72C41D10D5EB005B6E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		40FA72C91D10D5EB005B6E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40FA72CC1D10D5EB005B6E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40FA72CE1D10D5EB005B6E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FA72D41D10D605005B6E78 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		40FC7E611D10DBF00080700C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		40FC7E631D10DF0F0080700C /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		40FC7E651D10E1940080700C /* Karma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Karma.swift; sourceTree = "<group>"; };
+		40FC7E671D10E3040080700C /* Devil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +66,18 @@
 		40FA72C11D10D5EB005B6E78 /* OOP-GAME */ = {
 			isa = PBXGroup;
 			children = (
+				40BD39121D112F3F00F9CA85 /* Minecraft.ttf */,
 				40FA72C21D10D5EB005B6E78 /* AppDelegate.swift */,
 				40FA72C41D10D5EB005B6E78 /* ViewController.swift */,
 				40FA72C61D10D5EB005B6E78 /* Main.storyboard */,
 				40FA72C91D10D5EB005B6E78 /* Assets.xcassets */,
 				40FA72CB1D10D5EB005B6E78 /* LaunchScreen.storyboard */,
 				40FA72CE1D10D5EB005B6E78 /* Info.plist */,
+				40FA72D41D10D605005B6E78 /* Character.swift */,
+				40FC7E611D10DBF00080700C /* Player.swift */,
+				40FC7E631D10DF0F0080700C /* Enemy.swift */,
+				40FC7E651D10E1940080700C /* Karma.swift */,
+				40FC7E671D10E3040080700C /* Devil.swift */,
 			);
 			path = "OOP-GAME";
 			sourceTree = "<group>";
@@ -124,6 +142,7 @@
 			files = (
 				40FA72CD1D10D5EB005B6E78 /* LaunchScreen.storyboard in Resources */,
 				40FA72CA1D10D5EB005B6E78 /* Assets.xcassets in Resources */,
+				40BD39131D112F3F00F9CA85 /* Minecraft.ttf in Resources */,
 				40FA72C81D10D5EB005B6E78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FC7E661D10E1940080700C /* Karma.swift in Sources */,
+				40FC7E621D10DBF00080700C /* Player.swift in Sources */,
+				40FC7E641D10DF0F0080700C /* Enemy.swift in Sources */,
+				40FC7E681D10E3040080700C /* Devil.swift in Sources */,
+				40FA72D51D10D605005B6E78 /* Character.swift in Sources */,
 				40FA72C51D10D5EB005B6E78 /* ViewController.swift in Sources */,
 				40FA72C31D10D5EB005B6E78 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +310,7 @@
 				40FA72D31D10D5EB005B6E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
